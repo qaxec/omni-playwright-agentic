@@ -141,3 +141,20 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+playwright/.auth/
+.auth/
+
+# Claude Code (per-user local settings)
+.claude/settings.local.json
+
+# Local planning & AI working notes (kept out of the public repo)
+PLAYBOOK.md
+CLAUDE.md
+archive/
+Agentic_QnA.*
